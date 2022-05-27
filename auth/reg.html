@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style/style_input.css">
+        <title>Регистрация</title>      
+    </head>
+    <body>
+        
+        <div class="reg">
+            <h1 class="reg-title">Электронный журнал</h1> 
+            <em><h1 class="reg-input">Регистрация</h1></em>
+            
+            <form action="/" method="post">
+                
+                <label for="input_name" class="lable">Введите имя:</label>
+                <input class="input" type="text" name="name" id="input_name" placeholder="Имя" required>
+                
+                <label for="input_surname" class="lable">Введите фамилию:</label>
+                <input class="input" type="text" name="surname" id="input_surname" placeholder="Фамилия" required>
+                
+                <label for="input_middleName" class="lable">Введите отчество:</label>
+                <input class="input" type="text" name="middleName" id="input_middleName" placeholder="Отчество" required>
+                
+                <label for="input_email" class="lable">Ваш email:</label>
+                <input class="input" type="email" name="email" id="input_email" placeholder="Ваш email" required>
+                
+                <label for="input_log" class="lable">Придумайте логин:</label>
+                <input class="input" type="text" name="log" id="input_log" placeholder="Логин" required>
+                
+                <label for="input_pass" class="lable">Придумайте пароль:</label>
+                <input class="input" type="password" name="pass" id="input_pass" placeholder="Пароль" required>
+                
+            </form>
+            
+            <button class="btn" type="submit">Регистрация</button>
+            <a class="auth-btn" href="auth.html">Авторизация</a>
+            
+        </div>
+        
+    </body>
+</html>

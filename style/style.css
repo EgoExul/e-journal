@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #121212; 
+    background-color: #ffffff
+}
+
+
+/*header*/
+
+.header{
+    width: auto;
+    padding: 0px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+
+.header-title{
+    margin: 0;
+    font-size: 35px;
+    color: #121212;
+    text-align: center;
+}
+
+
+/*nav*/
+
+.nav{
+    text-align: center;
+    background-color: #35399f;
+}
+
+
+.nav-link{
+    display: inline-block;
+    padding: 8px 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.nav-link:hover, .nav-link:focus {
+    background-color: #c9c9c9;
+    color: #000000;
+}
+
+
+/*table*/
+
+.table{
+    
+    text-align: left;
+    border: 1px solid #000;
+    border-collapse: collapse;    
+}
+
+
+.table th{
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+
+.table td{
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+
+/*btn*/
+
+.btn{
+    font-family: inherit;
+    margin: 15px 15px 0px 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: 0;
+    background-color: #dbdbdb;
+    color: #121212;
+}
+
+
+.btn-form{
+    display: inline-block;  
+}
+
+
+.btn:focus{
+    outline: 0;
+}
+
+
+/*table-grades*/
+
+.table-grades{
+    
+    text-align: left;
+    border: 1px solid #000;
+    border-collapse: collapse; 
+}
+
+
+.table-grades th{
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+
+.table-grades td{
+    padding: 5px;
+    border: 1px solid #000; 
+}
+
+
+input{
+    width: 40px;
+    height: 20px;
+}
+
+
+/*student*/
+
+.student{
+    margin: 10px 5px;
+    font-size: 20px;
+    color: #121212;
+}
+
+
+/*dropdown*/
+/* Кнопка выпадающего списка */
+
+.dropbtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #dbdbdb;
+    border: 1px solid #b4b4b4;
+    cursor: pointer;
+}
+
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #c5ced3;
+    outline: 0;
+}
+
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+/* Ссылки внутри выпадающего списка */
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+
+.show {
+    display:block;
+}
