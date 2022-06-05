@@ -11,48 +11,74 @@
             <h1 class="header-title">Электронный журнал</h1>
         </div>
         
-        <div class="nav">
-            <a class="nav-link" href="#">Профиль</a>
-            <a class="nav-link" href="JurnalSII.html">Электронный журнал</a>
-            <a class="nav-link" href="MyGrades.html">Мои оценки</a>
-            <a class="nav-link" href="#">Выход</a>
+        <div class="nav-btn">
+            <a class="nav-linkBtn" href="#">Профиль</a>
+            <a class="nav-linkBtn" href="JurnalSII.html">Электронный журнал</a>
+            <a class="nav-linkBtn" href="MyGrades.html">Мои оценки</a>
+            <a class="nav-linkBtn" href="../auth/auth.html">Выход</a>
         </div>
         
         <h1 class="student">Оценки: Иванов Петр Васильевич</h1>
                     
         <div>
         
-            <table class="table-grades">
-                <thead>
+            <table class="table table-bordered">
+                <thead class="t-head">
                     <tr>
-                        <th>#</th>
-                        <th>Название предмета</th>
-                        <th colspan="6">Оценки</th>
-                        <th>Средний балл</th>
+                        <th rowspan="2">№</th>
+                        <th rowspan="2">Название предмета</th>
+                        <th colspan="12">Оценки</th>
+                        <th rowspan="2">Средний балл</th>
+                    </tr>
+                    <tr>
+                        <td>09.06.22</td>
+                        <td>10.06.22</td>
+                        <td>11.06.22</td>
+                        <td>12.06.22</td>
+                        <td>13.06.22</td>
+                        <td>14.06.22</td>
+                        <td>15.06.22</td>
+                        <td>16.06.22</td>
+                        <td>17.06.22</td>
+                        <td>18.06.22</td>
+                        <td>19.06.22</td>
+                        <td>20.06.22</td>
                     </tr>
                 </thead>
-                <tbody class="tbody">
+                <tbody>
                     <tr>
-                        <td>1</td>
-                        <td>Системы искусственного интеллекта</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>5</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>5</td>
-                        <td></td>
+                        <th>1</th>
+                        <th>Системы искусственного интеллекта</th>
+                        <td><p></p>4</td>
+                        <td><p></p>3</td>
+                        <td><p></p>5</td>
+                        <td><p></p>4</td>
+                        <td><p></p>3</td>
+                        <td><p></p>5</td>
+                        <td><p></p>4</td>
+                        <td><p></p>4</td>
+                        <td><p></p>3</td>
+                        <td><p>Лаб</p>5</td>
+                        <td><p>Тест</p>5</td>
+                        <td><p>Экз</p>3</td>
+                        <td><p></p></td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Математический анализ</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>5</td>
-                        <td>4</td>
-                        <td>3</td>
-                        <td>5</td>
-                        <td></td>
+                        <th>2</th>
+                        <th>Математический анализ</th>
+                        <td><p></p>4</td>
+                        <td><p></p>3</td>
+                        <td><p></p>5</td>
+                        <td><p></p>3</td>
+                        <td><p></p>3</td>
+                        <td><p></p>5</td>
+                        <td><p></p>3</td>
+                        <td><p></p>4</td>
+                        <td><p></p>5</td>
+                        <td><p>Лаб</p>4</td>
+                        <td><p>Тест</p>3</td>
+                        <td><p>Экз</p>5</td>
+                        <td><p></p></td>
                     </tr>
                 </tbody>
             </table>
@@ -60,9 +86,13 @@
     
         <div>
             <a href="#" download="">
-                <button class="btn">Скачать</button>
+                <button class="btn-edit">Скачать</button>
             </a>
         </div>
-        
+
+        <script src="../app/script.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
     </body>
 </html>

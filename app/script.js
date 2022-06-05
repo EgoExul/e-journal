@@ -21,3 +21,33 @@ window.onclick = function(event) {
 
 
   
+function disable() {
+            document.getElementById("score").disabled = true; document.getElementById("score-0").disabled = true;
+            document.getElementById("score1").disabled = true; document.getElementById("score-1").disabled = true;
+            document.getElementById("score2").disabled = true; document.getElementById("score-2").disabled = true;
+            document.getElementById("score3").disabled = true; document.getElementById("score-3").disabled = true;
+            document.getElementById("score4").disabled = true; document.getElementById("score-4").disabled = true;
+            document.getElementById("score5").disabled = true; document.getElementById("score-5").disabled = true;
+            document.getElementById("score6").disabled = true; document.getElementById("score-6").disabled = true;
+            document.getElementById("score7").disabled = true; document.getElementById("score-7").disabled = true;
+            document.getElementById("score8").disabled = true; document.getElementById("score-8").disabled = true;
+            document.getElementById("score9").disabled = true; document.getElementById("score-9").disabled = true;
+            document.getElementById("score10").disabled = true; document.getElementById("score-10").disabled = true;
+            document.getElementById("score11").disabled = true; document.getElementById("score-11").disabled = true;
+
+        }
+function enable() {
+            document.getElementById("score").disabled = false; document.getElementById("score-0").disabled = false;
+            document.getElementById("score1").disabled = false; document.getElementById("score-1").disabled = false;
+            document.getElementById("score2").disabled = false; document.getElementById("score-2").disabled = false;
+            document.getElementById("score3").disabled = false; document.getElementById("score-3").disabled = false;
+            document.getElementById("score4").disabled = false; document.getElementById("score-4").disabled = false;
+            document.getElementById("score5").disabled = false; document.getElementById("score-5").disabled = false;
+            document.getElementById("score6").disabled = false; document.getElementById("score-6").disabled = false;
+            document.getElementById("score7").disabled = false; document.getElementById("score-7").disabled = false;
+            document.getElementById("score8").disabled = false; document.getElementById("score-8").disabled = false;
+            document.getElementById("score9").disabled = false; document.getElementById("score-9").disabled = false;
+            document.getElementById("score10").disabled = false; document.getElementById("score-10").disabled = false;
+            document.getElementById("score11").disabled = false; document.getElementById("score-11").disabled = false;
+
+        };

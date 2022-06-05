@@ -4,7 +4,7 @@ body{
     font-family: Arial, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    color: #121212; 
+    color: #121212;
     background-color: #ffffff
 }
 
@@ -29,13 +29,13 @@ body{
 
 /*nav*/
 
-.nav{
+.nav-btn{
     text-align: center;
     background-color: #35399f;
 }
 
 
-.nav-link{
+.nav-linkBtn{
     display: inline-block;
     padding: 8px 12px;
     color: #ffffff;
@@ -43,7 +43,7 @@ body{
 }
 
 
-.nav-link:hover, .nav-link:focus {
+.nav-linkBtn:hover, .nav-linkBtn:focus {
     background-color: #c9c9c9;
     color: #000000;
 }
@@ -51,45 +51,31 @@ body{
 
 /*table*/
 
-.table{
-    
-    text-align: left;
-    border: 1px solid #000;
-    border-collapse: collapse;    
+.t-head{
+    text-align: center;
 }
-
-
-.table th{
-    padding: 5px;
-    border: 1px solid #000;
-}
-
-
-.table td{
-    padding: 5px;
-    border: 1px solid #000;
-}
-
 
 /*btn*/
 
-.btn{
-    font-family: inherit;
-    margin: 15px 15px 0px 0px;
-    padding: 5px 10px;
-    cursor: pointer;
-    outline: 0;
+.btn-edit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
     background-color: #dbdbdb;
-    color: #121212;
+    border: 1px solid #b4b4b4;
+    cursor: pointer;
+
 }
 
 
 .btn-form{
-    display: inline-block;  
+    display: inline-block;
 }
 
 
-.btn:focus{
+.btn-edit:hover, .btn-edit:focus {
+    background-color: #c5ced3;
     outline: 0;
 }
 
@@ -98,7 +84,7 @@ body{
 
 .table-grades{
     
-    text-align: left;
+    text-align: center;
     border: 1px solid #000;
     border-collapse: collapse; 
 }
@@ -117,8 +103,8 @@ body{
 
 
 input{
-    width: 40px;
-    height: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -190,8 +176,16 @@ input{
 }
 
 
-/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+/* Показать выпадающее меню */
 
 .show {
     display:block;
 }
+
+/*select*/
+.select{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}
+
