@@ -136,7 +136,6 @@ body{
 
 
 .auth-input:after{
-    content: "";
     display: block;
     width: auto;
     height: 5px;
