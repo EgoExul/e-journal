@@ -12,25 +12,12 @@
             <h1 class="reg-input"><em>Регистрация</em></h1>
             
             <form action="/" method="post">
-
-                <label for="input_surname" class="lable">Фамилия</label>
-                <input class="input" type="text" name="surname" id="input_surname" required>
-
-                <label for="input_name" class="lable">Имя</label>
-                <input class="input" type="text" name="name" id="input_name" required>
-                
-                <label for="input_middleName" class="lable">Отчество</label>
-                <input class="input" type="text" name="middleName" id="input_middleName" required>
-                
-                <label for="input_email" class="lable">Эл. адрес</label>
-                <input class="input" type="email" name="email" id="input_email" required>
-                
-                <label for="input_log" class="lable">Логин</label>
-                <input class="input" type="text" name="log" id="input_log" required>
-                
-                <label for="input_pass" class="lable">Пароль</label>
-                <input class="input" type="password" name="pass" id="input_pass" required>
-                
+                <input class="input" type="text" name="surname" id="input_surname" placeholder="Фамилия" required>
+                <input class="input" type="text" name="name" id="input_name" placeholder="Имя" required>
+                <input class="input" type="text" name="middleName" id="input_middleName" placeholder="Отчество" required>
+                <input class="input" type="email" name="email" id="input_email" placeholder="Email" required>
+                <input class="input" type="text" name="log" id="input_log" placeholder="Логин" required>
+                <input class="input" type="password" name="pass" id="input_pass" placeholder="Пароль" required>
             </form>
             
             <button class="btn" type="submit" onclick="document.location='auth.html'">Регистрация</button>
